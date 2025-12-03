@@ -1,0 +1,26 @@
+{
+  "total_algorithms": 11,
+  "completed_algorithms": [
+    "NoCache-LowerBound",
+    "LRU+LCE",
+    "LFU+ProbCache",
+    "Combined+LCD",
+    "DQN",
+    "DQN+ProbCache",
+    "DQN+MPC",
+    "FullCache-UpperBound",
+    "OPT-Belady",
+    "LFO-Baseline",
+    "FeiWang-ICC2023"
+  ],
+  "last_update": "20251122_012757",
+  "run_info": {
+    "scenario": "500_nodes",
+    "start_time": "2025-11-21T19:40:51.269959",
+    "num_runs": 5,
+    "seed": 42,
+    "config_file": "configs/scenario_500_nodes.json",
+    "elapsed_time_seconds": 20825.78654193878,
+    "end_time": "2025-11-22T01:27:57.057270"
+  }
+}
