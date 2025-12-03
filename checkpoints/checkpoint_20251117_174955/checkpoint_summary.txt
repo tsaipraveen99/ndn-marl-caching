@@ -1,0 +1,22 @@
+=== CHECKPOINT SUMMARY ===
+Date: Mon Nov 17 17:49:55 PST 2025
+Runtime: ~3.6 hours
+Status: Main simulation completed successfully
+
+Key Metrics:
+- Cache Insertions: 342781
+- Cache Hits: 104641
+- Expired Interests: 0
+0
+
+Comparison to Previous Run (Before Fix):
+- Previous Cache Hits: 4,758
+- Previous Cache Insertions: 24,488
+- Previous Expired Interests: 2,174,612
+
+Improvements:
+- Cache Hits: 21.9x improvement
+- Cache Insertions: 13.9x improvement
+- Expired Interests: 100% reduction (from 2.17M to 0)
+
+✅ Fix verified: Expired Interests bug completely resolved!

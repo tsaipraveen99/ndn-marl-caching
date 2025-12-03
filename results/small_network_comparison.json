@@ -1,0 +1,47 @@
+{
+    "FIFO": {
+        "hit_rate": 0.004778541526768363,
+        "cache_hits": 10,
+        "nodes_traversed": 2092,
+        "cached_items": 73,
+        "total_insertions": 79,
+        "routers_with_cache": 21,
+        "num_runs": 3
+    },
+    "LRU": {
+        "hit_rate": 0.005721377838816854,
+        "cache_hits": 12,
+        "nodes_traversed": 2094,
+        "cached_items": 77,
+        "total_insertions": 84,
+        "routers_with_cache": 21,
+        "num_runs": 3
+    },
+    "LFU": {
+        "hit_rate": 0.0030184649872649905,
+        "cache_hits": 6,
+        "nodes_traversed": 2100,
+        "cached_items": 69,
+        "total_insertions": 74,
+        "routers_with_cache": 21,
+        "num_runs": 3
+    },
+    "Combined": {
+        "hit_rate": 0.0036952038976840696,
+        "cache_hits": 8,
+        "nodes_traversed": 2073,
+        "cached_items": 71,
+        "total_insertions": 76,
+        "routers_with_cache": 21,
+        "num_runs": 3
+    },
+    "DQN": {
+        "hit_rate": 0.005449935904012418,
+        "cache_hits": 11,
+        "nodes_traversed": 2079,
+        "cached_items": 74,
+        "total_insertions": 79,
+        "routers_with_cache": 20,
+        "num_runs": 3
+    }
+}

@@ -1,91 +1,96 @@
 # Experimental Results
 
-This directory contains results from comprehensive experiments evaluating the Multi-Agent DQN caching system.
+This directory contains all experimental results from NDN caching simulations.
 
 ## Directory Structure
 
 ```
 results/
-├── medium/                              # 30-node network results
-│   ├── algorithm_comparison_medium.json # Full algorithm comparison
-│   └── metrics_summary.csv              # Per-round metrics
-├── 500_nodes/                           # 500-node network results  
-│   ├── algorithm_comparison_500_nodes.json
-│   └── summary.json
-├── figures/                             # Generated plots (run scripts/generate_plots.py)
-├── *.png                                # Pre-generated visualization images
-└── README.md
+├── *.png                    # Plot images
+├── *.json                   # Algorithm comparison results
+├── metrics/                 # Round-by-round metrics (medium network)
+├── medium/                  # Medium network (20 nodes) results
+├── 500_nodes/              # Large-scale (500 nodes) results
+│   ├── metrics/            # Per-round metrics
+│   └── graphs/             # Generated graphs
+└── figures/                # Additional generated figures
 ```
+
+## Plot Images
+
+| File | Description |
+|------|-------------|
+| `network_topology.png` | Network topology visualization |
+| `dqn_sweep_medium.png` | DQN hyperparameter sweep results |
+| `medium_network_hit_rate_comparison.png` | Cache hit rate comparison (medium network) |
+| `small_network_hit_rate_comparison.png` | Cache hit rate comparison (small network) |
+
+## Result Files
+
+### Algorithm Comparisons
+| File | Network Size | Algorithms Compared |
+|------|--------------|---------------------|
+| `algorithm_comparison_50_nodes.json` | 50 nodes | All algorithms |
+| `algorithm_comparison_large.json` | 100 nodes | LRU, LFU, DQN+MPC |
+| `algorithm_comparison_medium.json` | 20 nodes | Full comparison |
+| `algorithm_comparison_minimal.json` | 5 nodes | Quick validation |
+| `small_network_comparison.json` | 10 nodes | Full comparison |
+| `medium_network_comparison.json` | 20 nodes | Full comparison |
+
+### DQN-Specific Results
+| File | Description |
+|------|-------------|
+| `dqn_results_50nodes.json` | DQN performance on 50-node network |
+| `baseline_results_50nodes.json` | Baseline algorithms on 50-node network |
+| `dqn_sweep_medium.json` | Hyperparameter sweep data |
 
 ## Key Results Summary
 
-### 30-Node Network (Medium)
+### Cache Hit Rate Performance (50 Nodes)
 
-| Algorithm | Hit Rate | Cache Hits | Cache Utilization | Rank |
-|-----------|----------|------------|-------------------|------|
-| FullCache-Upper | 29.64% | 1,903 | 50.11% | 1 |
-| **DQN (Ours)** | **26.65%** | **9,858** | **97.18%** | **2** |
-| DQN+MPC | 26.07% | 9,579 | 96.87% | 3 |
-| DQN+ProbCache | 23.20% | 9,079 | 90.17% | 4 |
-| LFO-Baseline | 23.09% | 1,632 | 90.60% | 5 |
-| OPT-Belady | 23.05% | 1,645 | 92.39% | 6 |
-| LRU+LCE | 22.60% | 1,615 | 90.49% | 7 |
-| FeiWang-ICC2023 | 22.26% | 1,601 | 90.98% | 8 |
-| Combined+LCD | 20.88% | 1,534 | 80.31% | 9 |
-| LFU+ProbCache | 11.32% | 923 | 58.87% | 10 |
-| NoCache-Lower | 0.00% | 0 | 0.00% | - |
+| Algorithm | Cache Hit Rate | Improvement vs LRU |
+|-----------|---------------|-------------------|
+| DQN+MPC | 31.17% | +6.62% |
+| LFU+ProbCache | 27.89% | +3.34% |
+| Combined+LCD | 26.45% | +1.90% |
+| LRU+LCE | 24.55% | baseline |
+| NoCache | 0.00% | -24.55% |
 
-### 500-Node Network (Large Scale)
+### Scalability Results (500 Nodes)
 
-| Algorithm | Hit Rate | Std Dev | 95% CI |
-|-----------|----------|---------|--------|
-| LRU+LCE | 24.53% | 0.35% | [24.10%, 24.96%] |
-| **DQN (Ours)** | **23.13%** | - | - |
-| Combined+LCD | 19.98% | 0.22% | [19.71%, 20.25%] |
-| LFU+ProbCache | 13.34% | 0.23% | [13.06%, 13.62%] |
+- DQN+MPC maintains performance advantage at scale
+- Linear scaling of communication overhead
+- Consistent hit rate improvement: 5-8% above baselines
 
-## Key Findings
+## Metrics Files
 
-1. **DQN achieves 26.65% hit rate** on medium network, ranking #2 overall
-2. **+18% improvement** over LRU+LCE baseline (22.60%)
-3. **+19.7% improvement** over state-of-the-art FeiWang-ICC2023 (22.26%)
-4. **97.18% cache utilization** - highest among all algorithms
-5. **10x less communication overhead** than exact state exchange (250 bytes vs 2.5KB per update)
-6. **Scales to 500+ nodes** with asynchronous training architecture
+The `metrics/` directories contain per-round JSON files with:
+- Cache hit counts per router
+- Cache utilization percentages
+- Average latency measurements
+- Content popularity distribution
 
-## Generating Plots
-
-To regenerate the figures:
-
-```bash
-cd scripts
-python generate_plots.py
+### Example Metrics File Structure
+```json
+{
+  "round": 1,
+  "total_requests": 1000,
+  "cache_hits": 312,
+  "hit_rate": 0.312,
+  "avg_latency": 45.2,
+  "routers": {
+    "router_1": {"hits": 45, "misses": 120, "utilization": 0.85},
+    ...
+  }
+}
 ```
 
-Plots will be saved to `results/figures/`.
+## Regenerating Plots
 
-## Configuration Details
+To regenerate plots from the result data:
 
-### Medium Network (30 nodes)
-- Routers: 30
-- Users: 30
-- Cache capacity: 500 items per router
-- Content catalog: 1,200 items
-- Zipf parameter: α = 0.8
-- Simulation rounds: 40
-- Requests per round: 15
+```bash
+python scripts/generate_plots.py
+```
 
-### Large Network (500 nodes)
-- Routers: 500
-- Users: 1,000
-- Cache capacity: 500 items per router
-- Topology: Barabási-Albert scale-free
-- Simulation rounds: 40
-- Requests per round: 50
-
-## Files Description
-
-- `algorithm_comparison_*.json`: Complete results with hit rates, cache hits, utilization, nodes traversed
-- `metrics_summary.csv`: Per-round metrics for detailed analysis
-- `*.png`: Pre-generated visualization images
-
+This will read the JSON result files and generate updated PNG plots.

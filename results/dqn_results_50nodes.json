@@ -1,0 +1,21 @@
+{
+  "algorithm": "DQN",
+  "description": "Pure DQN - learns both placement (WHERE) and content selection (WHAT)",
+  "scenario": "50_nodes",
+  "hit_rate": 0.21128974698758327,
+  "hit_rate_std": 0.0512509648566085,
+  "hit_rate_ci_lower": 0.08397529242526897,
+  "hit_rate_ci_upper": 0.33860420154989757,
+  "cache_hits": 4826,
+  "cache_hits_std": 1835,
+  "nodes_traversed": 22381,
+  "nodes_traversed_std": 2858,
+  "cached_items": 1037,
+  "cached_items_std": 12,
+  "total_insertions": 7311,
+  "total_insertions_std": 1698,
+  "routers_with_cache": 60,
+  "routers_with_cache_std": 0,
+  "avg_cache_utilization": 98.88888888888889,
+  "num_runs": 3
+}

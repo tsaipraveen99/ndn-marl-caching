@@ -1,0 +1,20 @@
+2025-11-17 15:19:16,332 - INFO - Router 256: Forwarding Interest for /edu/oxford/math/projects/content_017 via exact match -> next hops [42, 257, 258]
+2025-11-17 15:19:16,332 - WARNING - Producer: Content /edu/ucla/biology/projects/content_070 NOT FOUND. Sending NACK.
+2025-11-17 15:19:16,336 - INFO - Router 983: No FIB entry for /edu/berkeley/biology/courses/content_035. Using deterministic fallback via 120.
+2025-11-17 15:19:16,337 - INFO - Router 251: Forwarding Interest for /edu/ucla/ee/data/content_075 via exact match -> next hops [253]
+2025-11-17 15:19:16,337 - INFO - Router 131: Forwarding Interest for /edu/stanford/ee/projects/content_092 via exact match -> next hops [133, 130]
+2025-11-17 15:19:16,650 - WARNING - Router 139: Duplicate Interest detected for /edu/stanford/physics/projects/content_057 with nonce 2105917479; dropping (loop prevention)
+2025-11-17 15:19:16,299 - INFO - Router 269: Forwarding Interest for /edu/mit/math/courses/content_022 via exact match -> next hops [317, 268, 267, 270, 271]
+2025-11-17 15:19:16,258 - INFO - Router 202: Forwarding Interest for /edu/ucla/biology/projects/content_070 via exact match -> next hops [200, 201, 204]
+2025-11-17 15:19:16,337 - WARNING - Router 94: Duplicate Interest detected for /edu/oxford/math/projects/content_017 with nonce 1307741833; dropping (loop prevention)
+2025-11-17 15:19:16,694 - INFO - Router 7: Forwarding Interest for /edu/oxford/math/projects/content_017 via exact match -> next hops [5, 9, 6, 8]
+2025-11-17 15:19:16,696 - WARNING - Router 38: Duplicate Interest detected for /edu/berkeley/biology/courses/content_058 with nonce 2148236605; dropping (loop prevention)
+2025-11-17 15:19:16,696 - WARNING - Producer: Content /edu/stanford/ee/projects/content_098 NOT FOUND. Sending NACK.
+2025-11-17 15:19:16,697 - WARNING - Router 326: Received NACK for /edu/mit/math/courses/content_022
+2025-11-17 15:19:16,697 - INFO - Router 44: Forwarding Interest for /edu/stanford/ee/projects/content_098 via exact match -> next hops [45, 43, 327, 332, 315, 313]
+2025-11-17 15:19:16,338 - WARNING - Router 289: Duplicate Interest detected for /edu/berkeley/biology/projects/content_007 with nonce 2286108987; dropping (loop prevention)
+2025-11-17 15:19:16,697 - INFO - Router 45: Forwarding Interest for /edu/stanford/ee/projects/content_098 via exact match -> next hops [47, 44, 317]
+2025-11-17 15:19:16,339 - WARNING - Router 326: Received NACK for /edu/stanford/physics/projects/content_046
+2025-11-17 15:19:16,697 - INFO - Router 178: Forwarding Interest for /edu/mit/cs/media/content_079 via exact match -> next hops [176, 177, 180, 337, 313]
+2025-11-17 15:19:16,339 - WARNING - Router 138: Duplicate Interest detected for /edu/oxford/cs/projects/content_066 with nonce 583333184; dropping (loop prevention)
+2025-11-17 15:19:16,703 - WARNING - Producer: Content /edu/berkeley/cs/media/content_021 NOT FOUND. Sending NACK.

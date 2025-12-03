@@ -1,0 +1,375 @@
+2025-11-21 14:42:47,479 INFO: DQN Caching Status: 36 routers with DQN enabled, 0 failed
+2025-11-21 14:42:47,479 INFO: Checkpoint directory: dqn_checkpoints/20251121_144247
+2025-11-21 14:42:47,479 INFO: Checkpoint frequency: every 10 rounds, keeping last 5
+2025-11-21 14:42:57,307 INFO: Network statistics:
+2025-11-21 14:42:57,308 INFO:   Nodes: 56
+2025-11-21 14:42:57,308 INFO:   Edges: 110
+2025-11-21 14:42:57,309 INFO:   Users: 20
+2025-11-21 14:42:57,309 INFO:   Producers: 6
+2025-11-21 14:45:11,386 INFO: Cache Statistics:
+2025-11-21 14:45:11,386 INFO:   Routers with caching capacity: 36
+2025-11-21 14:45:11,386 INFO:   Routers with cached items: 36
+2025-11-21 14:45:11,386 INFO:   Total cached items: 176
+2025-11-21 14:45:11,386 INFO:   Total cache insertions: 2968
+2025-11-21 14:45:11,386 INFO:   Total data messages processed: 8347
+2025-11-21 14:45:11,386 INFO:   Cache insertion attempts: 7338
+2025-11-21 14:45:11,386 INFO:   Cache insertion successes: 6005
+2025-11-21 14:45:11,387 INFO:   Cache insertion failures: 1333
+2025-11-21 14:45:11,387 INFO:   Cache insertion success rate: 81.83%
+2025-11-21 14:45:11,389 INFO: ================================================================================
+2025-11-21 14:45:11,390 INFO: COMPREHENSIVE EVALUATION METRICS
+2025-11-21 14:45:11,390 INFO: ================================================================================
+2025-11-21 14:45:11,390 INFO: Latency (Interest to Data):
+2025-11-21 14:45:11,390 INFO:   Mean: 1.4882s
+2025-11-21 14:45:11,390 INFO:   Median: 1.2044s
+2025-11-21 14:45:11,390 INFO:   Min: 0.0161s, Max: 8.7381s
+2025-11-21 14:45:11,390 INFO:   Count: 3449
+2025-11-21 14:45:11,390 INFO: Content Redundancy:
+2025-11-21 14:45:11,390 INFO:   Mean copies per content: 3.65
+2025-11-21 14:45:11,390 INFO:   Min: 1, Max: 27
+2025-11-21 14:45:11,390 INFO:   Total unique contents: 170
+2025-11-21 14:45:11,390 INFO: Interest Packet Dispersion:
+2025-11-21 14:45:11,390 INFO:   Mean unique routers per Interest: 3.01
+2025-11-21 14:45:11,391 INFO:   Min: 2, Max: 14
+2025-11-21 14:45:11,391 INFO: Stretch (actual/optimal hops):
+2025-11-21 14:45:11,391 INFO:   Mean: 0.98
+2025-11-21 14:45:11,391 INFO:   Median: 0.96
+2025-11-21 14:45:11,391 INFO: Cache Hit Rate:
+2025-11-21 14:45:11,391 INFO:   Hit rate: 16.64%
+2025-11-21 14:45:11,391 INFO:   Total requests: 3449
+2025-11-21 14:45:11,391 INFO:   Hits: 574, Misses: 2875
+2025-11-21 14:45:11,391 INFO: Cache Utilization:
+2025-11-21 14:45:11,391 INFO:   Mean: 0.00%
+2025-11-21 14:45:11,391 INFO:   Median: 0.00%
+2025-11-21 14:45:11,391 INFO:   Routers tracked: 0
+2025-11-21 14:45:11,391 INFO: ================================================================================
+2025-11-22 01:27:56,810 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,814 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,817 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,903 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,906 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,910 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,913 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,917 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,922 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,926 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,931 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,934 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,937 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,945 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,949 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,990 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,993 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:56,998 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,002 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,006 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,010 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,013 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,016 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,021 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,025 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,029 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,032 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,036 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,041 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,045 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,049 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,052 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread
+2025-11-22 01:27:57,056 ERROR: Stack trace:
+Traceback (most recent call last):
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/main.py", line 204, in create_network
+    runtime = RouterRuntime(max_workers=max_workers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tsaipraveen/Personal Projects/ndn-nwsim-Sai_work/router.py", line 177, in __init__
+    worker.start()
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/threading.py", line 994, in start
+    _start_new_thread(self._bootstrap, ())
+RuntimeError: can't start new thread

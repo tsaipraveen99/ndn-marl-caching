@@ -73,30 +73,33 @@ venv.bak/
 *.pt
 *.pth
 runs/
-checkpoints/
+# Keep checkpoints for reproducibility
+# checkpoints/
 dqn_checkpoints/
 benchmark_checkpoints/
 
-# Logs
-*.log
-logs/
+# Keep logs to demonstrate real runs
+# *.log
+# logs/
 
 # Temporary files
 *.tmp
 *.temp
 .DS_Store
 
-# Pickle files (large network states)
-*.pkl
+# Pickle files (keep checkpoint network states)
+# *.pkl
 
 # TensorBoard
 tensorboard/
 
-# Results (keep JSON, ignore large files)
+# Results (keep JSON, PNG, and metrics for reproducibility)
 results/**/graphs/
-results/**/metrics/
+# Keep metrics to show per-round results
+# results/**/metrics/
 !results/**/*.json
 !results/**/*.png
+!results/**/*.csv
 
 # Thesis files
 thesis/

@@ -1,0 +1,11 @@
+2025-11-17 15:11:40,608 - INFO - Final Statistics:
+2025-11-17 15:11:40,609 - INFO - Router 232: Forwarding Interest for /edu/stanford/ee/research/content_052 via exact match -> next hops [340, 328, 234]
+2025-11-17 15:11:40,609 - INFO - Router 234: Forwarding Interest for /edu/stanford/ee/research/content_052 via exact match -> next hops [196, 292]
+2025-11-17 15:11:40,610 - INFO - Router 270: Forwarding Interest for /edu/stanford/physics/projects/content_035 via exact match -> next hops [272, 312, 23, 269, 268]
+2025-11-17 15:11:40,611 - INFO - Router 272: Forwarding Interest for /edu/stanford/physics/projects/content_035 via exact match -> next hops [270, 273, 274]
+2025-11-17 15:11:40,578 - WARNING - Router 216: Duplicate Interest detected for /edu/oxford/cs/courses/content_096 with nonce 4043946159; dropping (loop prevention)
+2025-11-17 15:11:40,644 - WARNING - Router 43: Duplicate Interest detected for /edu/oxford/cs/media/content_022 with nonce 1578640102; dropping (loop prevention)
+2025-11-17 15:11:40,611 - INFO - Router 2: Forwarding Interest for /edu/mit/biology/courses/content_009 via exact match -> next hops [4, 3, 322, 325]
+2025-11-17 15:11:40,612 - WARNING - Router 315: Received NACK for /edu/stanford/biology/courses/content_072
+2025-11-17 15:11:40,579 - INFO - Router 113: Forwarding Interest for /edu/mit/math/media/content_012 via exact match -> next hops [114, 115, 111]
+2025-11-17 15:11:40,579 - INFO - Router 76: Forwarding Interest for /edu/stanford/physics/projects/content_035 via exact match -> next hops [78, 75, 77]

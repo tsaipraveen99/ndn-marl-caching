@@ -1,0 +1,500 @@
+
+======================================================================
+ALGORITHM: NoCache-LowerBound
+Description: Lower bound reference with caching disabled
+  📁 Loaded scenario 'medium' from configs/scenario_medium.json
+  Run 1/1...
+2025-11-21 03:13:45,796 - INFO - Run 1/1 for NoCache-LowerBound
+2025-11-21 03:13:47,153 - INFO - ContentStore 0: Using CNN-based semantic encoder
+2025-11-21 03:13:47,153 - INFO - Initialized ContentStore for router 0 with capacity 1200
+2025-11-21 03:13:47,153 - INFO - Router 0 initialized with capacity 1200
+2025-11-21 03:13:47,153 - INFO - ContentStore 0: Replacement policy set to fifo
+2025-11-21 03:13:47,153 - INFO - ContentStore 1: Using CNN-based semantic encoder
+2025-11-21 03:13:47,153 - INFO - Initialized ContentStore for router 1 with capacity 1200
+2025-11-21 03:13:47,153 - INFO - Router 1 initialized with capacity 1200
+2025-11-21 03:13:47,153 - INFO - ContentStore 1: Replacement policy set to fifo
+2025-11-21 03:13:47,153 - INFO - ContentStore 2: Using CNN-based semantic encoder
+2025-11-21 03:13:47,153 - INFO - Initialized ContentStore for router 2 with capacity 1200
+2025-11-21 03:13:47,153 - INFO - Router 2 initialized with capacity 1200
+2025-11-21 03:13:47,153 - INFO - ContentStore 2: Replacement policy set to fifo
+2025-11-21 03:13:47,153 - INFO - ContentStore 3: Using CNN-based semantic encoder
+2025-11-21 03:13:47,153 - INFO - Initialized ContentStore for router 3 with capacity 1200
+2025-11-21 03:13:47,153 - INFO - Router 3 initialized with capacity 1200
+2025-11-21 03:13:47,153 - INFO - ContentStore 3: Replacement policy set to fifo
+2025-11-21 03:13:47,154 - INFO - ContentStore 4: Using CNN-based semantic encoder
+2025-11-21 03:13:47,154 - INFO - Initialized ContentStore for router 4 with capacity 1200
+2025-11-21 03:13:47,154 - INFO - Router 4 initialized with capacity 1200
+2025-11-21 03:13:47,154 - INFO - ContentStore 4: Replacement policy set to fifo
+2025-11-21 03:13:47,154 - INFO - ContentStore 5: Using CNN-based semantic encoder
+2025-11-21 03:13:47,154 - INFO - Initialized ContentStore for router 5 with capacity 1200
+2025-11-21 03:13:47,154 - INFO - Router 5 initialized with capacity 1200
+2025-11-21 03:13:47,154 - INFO - ContentStore 5: Replacement policy set to fifo
+2025-11-21 03:13:47,154 - INFO - ContentStore 6: Using CNN-based semantic encoder
+2025-11-21 03:13:47,154 - INFO - Initialized ContentStore for router 6 with capacity 1200
+2025-11-21 03:13:47,154 - INFO - Router 6 initialized with capacity 1200
+2025-11-21 03:13:47,154 - INFO - ContentStore 6: Replacement policy set to fifo
+2025-11-21 03:13:47,154 - INFO - ContentStore 7: Using CNN-based semantic encoder
+2025-11-21 03:13:47,154 - INFO - Initialized ContentStore for router 7 with capacity 1200
+2025-11-21 03:13:47,154 - INFO - Router 7 initialized with capacity 1200
+2025-11-21 03:13:47,154 - INFO - ContentStore 7: Replacement policy set to fifo
+2025-11-21 03:13:47,154 - INFO - ContentStore 8: Using CNN-based semantic encoder
+2025-11-21 03:13:47,154 - INFO - Initialized ContentStore for router 8 with capacity 1200
+2025-11-21 03:13:47,154 - INFO - Router 8 initialized with capacity 1200
+2025-11-21 03:13:47,154 - INFO - ContentStore 8: Replacement policy set to fifo
+2025-11-21 03:13:47,154 - INFO - ContentStore 9: Using CNN-based semantic encoder
+2025-11-21 03:13:47,154 - INFO - Initialized ContentStore for router 9 with capacity 1200
+2025-11-21 03:13:47,154 - INFO - Router 9 initialized with capacity 1200
+2025-11-21 03:13:47,154 - INFO - ContentStore 9: Replacement policy set to fifo
+2025-11-21 03:13:47,154 - INFO - ContentStore 10: Using CNN-based semantic encoder
+2025-11-21 03:13:47,154 - INFO - Initialized ContentStore for router 10 with capacity 1200
+2025-11-21 03:13:47,154 - INFO - Router 10 initialized with capacity 1200
+2025-11-21 03:13:47,154 - INFO - ContentStore 10: Replacement policy set to fifo
+2025-11-21 03:13:47,154 - INFO - ContentStore 11: Using CNN-based semantic encoder
+2025-11-21 03:13:47,154 - INFO - Initialized ContentStore for router 11 with capacity 1200
+2025-11-21 03:13:47,154 - INFO - Router 11 initialized with capacity 1200
+2025-11-21 03:13:47,154 - INFO - ContentStore 11: Replacement policy set to fifo
+2025-11-21 03:13:47,154 - INFO - ContentStore 12: Using CNN-based semantic encoder
+2025-11-21 03:13:47,154 - INFO - Initialized ContentStore for router 12 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 12 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 12: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 13: Using CNN-based semantic encoder
+2025-11-21 03:13:47,155 - INFO - Initialized ContentStore for router 13 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 13 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 13: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 14: Using CNN-based semantic encoder
+2025-11-21 03:13:47,155 - INFO - Initialized ContentStore for router 14 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 14 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 14: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 15: Using CNN-based semantic encoder
+2025-11-21 03:13:47,155 - INFO - Initialized ContentStore for router 15 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 15 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 15: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 16: Using CNN-based semantic encoder
+2025-11-21 03:13:47,155 - INFO - Initialized ContentStore for router 16 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 16 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 16: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 17: Using CNN-based semantic encoder
+2025-11-21 03:13:47,155 - INFO - Initialized ContentStore for router 17 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 17 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 17: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 18: Using CNN-based semantic encoder
+2025-11-21 03:13:47,155 - INFO - Initialized ContentStore for router 18 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 18 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 18: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 19: Using CNN-based semantic encoder
+2025-11-21 03:13:47,155 - INFO - Initialized ContentStore for router 19 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 19 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 19: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 20: Using CNN-based semantic encoder
+2025-11-21 03:13:47,155 - INFO - Initialized ContentStore for router 20 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 20 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 20: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 21: Using CNN-based semantic encoder
+2025-11-21 03:13:47,155 - INFO - Initialized ContentStore for router 21 with capacity 1200
+2025-11-21 03:13:47,155 - INFO - Router 21 initialized with capacity 1200
+2025-11-21 03:13:47,155 - INFO - ContentStore 21: Replacement policy set to fifo
+2025-11-21 03:13:47,155 - INFO - ContentStore 22: Using CNN-based semantic encoder
+2025-11-21 03:13:47,156 - INFO - Initialized ContentStore for router 22 with capacity 1200
+2025-11-21 03:13:47,156 - INFO - Router 22 initialized with capacity 1200
+2025-11-21 03:13:47,156 - INFO - ContentStore 22: Replacement policy set to fifo
+2025-11-21 03:13:47,156 - INFO - ContentStore 23: Using CNN-based semantic encoder
+2025-11-21 03:13:47,156 - INFO - Initialized ContentStore for router 23 with capacity 1200
+2025-11-21 03:13:47,156 - INFO - Router 23 initialized with capacity 1200
+2025-11-21 03:13:47,156 - INFO - ContentStore 23: Replacement policy set to fifo
+2025-11-21 03:13:47,156 - INFO - ContentStore 24: Using CNN-based semantic encoder
+2025-11-21 03:13:47,156 - INFO - Initialized ContentStore for router 24 with capacity 1200
+2025-11-21 03:13:47,156 - INFO - Router 24 initialized with capacity 1200
+2025-11-21 03:13:47,156 - INFO - ContentStore 24: Replacement policy set to fifo
+2025-11-21 03:13:47,156 - INFO - ContentStore 25: Using CNN-based semantic encoder
+2025-11-21 03:13:47,156 - INFO - Initialized ContentStore for router 25 with capacity 1200
+2025-11-21 03:13:47,156 - INFO - Router 25 initialized with capacity 1200
+2025-11-21 03:13:47,156 - INFO - ContentStore 25: Replacement policy set to fifo
+2025-11-21 03:13:47,156 - INFO - ContentStore 26: Using CNN-based semantic encoder
+2025-11-21 03:13:47,156 - INFO - Initialized ContentStore for router 26 with capacity 1200
+2025-11-21 03:13:47,156 - INFO - Router 26 initialized with capacity 1200
+2025-11-21 03:13:47,156 - INFO - ContentStore 26: Replacement policy set to fifo
+2025-11-21 03:13:47,156 - INFO - ContentStore 27: Using CNN-based semantic encoder
+2025-11-21 03:13:47,156 - INFO - Initialized ContentStore for router 27 with capacity 1200
+2025-11-21 03:13:47,156 - INFO - Router 27 initialized with capacity 1200
+2025-11-21 03:13:47,156 - INFO - ContentStore 27: Replacement policy set to fifo
+2025-11-21 03:13:47,156 - INFO - ContentStore 28: Using CNN-based semantic encoder
+2025-11-21 03:13:47,156 - INFO - Initialized ContentStore for router 28 with capacity 1200
+2025-11-21 03:13:47,156 - INFO - Router 28 initialized with capacity 1200
+2025-11-21 03:13:47,156 - INFO - ContentStore 28: Replacement policy set to fifo
+2025-11-21 03:13:47,156 - INFO - ContentStore 29: Using CNN-based semantic encoder
+2025-11-21 03:13:47,156 - INFO - Initialized ContentStore for router 29 with capacity 1200
+2025-11-21 03:13:47,156 - INFO - Router 29 initialized with capacity 1200
+2025-11-21 03:13:47,156 - INFO - ContentStore 29: Replacement policy set to fifo
+2025-11-21 03:13:47,157 - INFO - Initialized NDN distribution with 200 contents
+2025-11-21 03:13:47,157 - INFO - ContentStore 30: Using CNN-based semantic encoder
+2025-11-21 03:13:47,157 - INFO - Initialized ContentStore for router 30 with capacity 150
+2025-11-21 03:13:47,157 - INFO - Router 30 initialized with capacity 150
+2025-11-21 03:13:47,157 - INFO - ContentStore 30: Replacement policy set to fifo
+2025-11-21 03:13:47,157 - INFO - Producer initialized with 33 contents
+2025-11-21 03:13:47,161 - INFO - ContentStore 31: Using CNN-based semantic encoder
+2025-11-21 03:13:47,162 - INFO - Initialized ContentStore for router 31 with capacity 150
+2025-11-21 03:13:47,162 - INFO - Router 31 initialized with capacity 150
+2025-11-21 03:13:47,162 - INFO - ContentStore 31: Replacement policy set to fifo
+2025-11-21 03:13:47,162 - INFO - Producer initialized with 33 contents
+2025-11-21 03:13:47,165 - INFO - ContentStore 32: Using CNN-based semantic encoder
+2025-11-21 03:13:47,165 - INFO - Initialized ContentStore for router 32 with capacity 150
+2025-11-21 03:13:47,165 - INFO - Router 32 initialized with capacity 150
+2025-11-21 03:13:47,165 - INFO - ContentStore 32: Replacement policy set to fifo
+2025-11-21 03:13:47,165 - INFO - Producer initialized with 33 contents
+2025-11-21 03:13:47,169 - INFO - ContentStore 33: Using CNN-based semantic encoder
+2025-11-21 03:13:47,169 - INFO - Initialized ContentStore for router 33 with capacity 150
+2025-11-21 03:13:47,169 - INFO - Router 33 initialized with capacity 150
+2025-11-21 03:13:47,169 - INFO - ContentStore 33: Replacement policy set to fifo
+2025-11-21 03:13:47,169 - INFO - Producer initialized with 33 contents
+2025-11-21 03:13:47,173 - INFO - ContentStore 34: Using CNN-based semantic encoder
+2025-11-21 03:13:47,173 - INFO - Initialized ContentStore for router 34 with capacity 150
+2025-11-21 03:13:47,173 - INFO - Router 34 initialized with capacity 150
+2025-11-21 03:13:47,173 - INFO - ContentStore 34: Replacement policy set to fifo
+2025-11-21 03:13:47,173 - INFO - Producer initialized with 33 contents
+2025-11-21 03:13:47,177 - INFO - ContentStore 35: Using CNN-based semantic encoder
+2025-11-21 03:13:47,177 - INFO - Initialized ContentStore for router 35 with capacity 150
+2025-11-21 03:13:47,177 - INFO - Router 35 initialized with capacity 150
+2025-11-21 03:13:47,177 - INFO - ContentStore 35: Replacement policy set to fifo
+2025-11-21 03:13:47,177 - INFO - Producer initialized with 33 contents
+2025-11-21 03:13:47,181 - INFO - ContentStore 36: Using CNN-based semantic encoder
+2025-11-21 03:13:47,181 - INFO - Initialized ContentStore for router 36 with capacity 0
+2025-11-21 03:13:47,181 - INFO - Router 36 initialized with capacity 0
+2025-11-21 03:13:47,181 - INFO - ContentStore 36: Replacement policy set to fifo
+2025-11-21 03:13:47,181 - INFO - User 36 initialized and connected to router 36
+2025-11-21 03:13:47,181 - INFO - ContentStore 37: Using CNN-based semantic encoder
+2025-11-21 03:13:47,181 - INFO - Initialized ContentStore for router 37 with capacity 0
+2025-11-21 03:13:47,181 - INFO - Router 37 initialized with capacity 0
+2025-11-21 03:13:47,181 - INFO - ContentStore 37: Replacement policy set to fifo
+2025-11-21 03:13:47,181 - INFO - User 37 initialized and connected to router 37
+2025-11-21 03:13:47,181 - INFO - ContentStore 38: Using CNN-based semantic encoder
+2025-11-21 03:13:47,181 - INFO - Initialized ContentStore for router 38 with capacity 0
+2025-11-21 03:13:47,181 - INFO - Router 38 initialized with capacity 0
+2025-11-21 03:13:47,181 - INFO - ContentStore 38: Replacement policy set to fifo
+2025-11-21 03:13:47,181 - INFO - User 38 initialized and connected to router 38
+2025-11-21 03:13:47,181 - INFO - ContentStore 39: Using CNN-based semantic encoder
+2025-11-21 03:13:47,181 - INFO - Initialized ContentStore for router 39 with capacity 0
+2025-11-21 03:13:47,181 - INFO - Router 39 initialized with capacity 0
+2025-11-21 03:13:47,181 - INFO - ContentStore 39: Replacement policy set to fifo
+2025-11-21 03:13:47,181 - INFO - User 39 initialized and connected to router 39
+2025-11-21 03:13:47,181 - INFO - ContentStore 40: Using CNN-based semantic encoder
+2025-11-21 03:13:47,182 - INFO - Initialized ContentStore for router 40 with capacity 0
+2025-11-21 03:13:47,182 - INFO - Router 40 initialized with capacity 0
+2025-11-21 03:13:47,182 - INFO - ContentStore 40: Replacement policy set to fifo
+2025-11-21 03:13:47,182 - INFO - User 40 initialized and connected to router 40
+2025-11-21 03:13:47,182 - INFO - ContentStore 41: Using CNN-based semantic encoder
+2025-11-21 03:13:47,182 - INFO - Initialized ContentStore for router 41 with capacity 0
+2025-11-21 03:13:47,182 - INFO - Router 41 initialized with capacity 0
+2025-11-21 03:13:47,182 - INFO - ContentStore 41: Replacement policy set to fifo
+2025-11-21 03:13:47,182 - INFO - User 41 initialized and connected to router 41
+2025-11-21 03:13:47,182 - INFO - ContentStore 42: Using CNN-based semantic encoder
+2025-11-21 03:13:47,182 - INFO - Initialized ContentStore for router 42 with capacity 0
+2025-11-21 03:13:47,182 - INFO - Router 42 initialized with capacity 0
+2025-11-21 03:13:47,182 - INFO - ContentStore 42: Replacement policy set to fifo
+2025-11-21 03:13:47,182 - INFO - User 42 initialized and connected to router 42
+2025-11-21 03:13:47,182 - INFO - ContentStore 43: Using CNN-based semantic encoder
+2025-11-21 03:13:47,182 - INFO - Initialized ContentStore for router 43 with capacity 0
+2025-11-21 03:13:47,182 - INFO - Router 43 initialized with capacity 0
+2025-11-21 03:13:47,182 - INFO - ContentStore 43: Replacement policy set to fifo
+2025-11-21 03:13:47,182 - INFO - User 43 initialized and connected to router 43
+2025-11-21 03:13:47,182 - INFO - ContentStore 44: Using CNN-based semantic encoder
+2025-11-21 03:13:47,182 - INFO - Initialized ContentStore for router 44 with capacity 0
+2025-11-21 03:13:47,182 - INFO - Router 44 initialized with capacity 0
+2025-11-21 03:13:47,182 - INFO - ContentStore 44: Replacement policy set to fifo
+2025-11-21 03:13:47,182 - INFO - User 44 initialized and connected to router 44
+2025-11-21 03:13:47,182 - INFO - ContentStore 45: Using CNN-based semantic encoder
+2025-11-21 03:13:47,182 - INFO - Initialized ContentStore for router 45 with capacity 0
+2025-11-21 03:13:47,182 - INFO - Router 45 initialized with capacity 0
+2025-11-21 03:13:47,182 - INFO - ContentStore 45: Replacement policy set to fifo
+2025-11-21 03:13:47,182 - INFO - User 45 initialized and connected to router 45
+2025-11-21 03:13:47,182 - INFO - ContentStore 46: Using CNN-based semantic encoder
+2025-11-21 03:13:47,182 - INFO - Initialized ContentStore for router 46 with capacity 0
+2025-11-21 03:13:47,182 - INFO - Router 46 initialized with capacity 0
+2025-11-21 03:13:47,182 - INFO - ContentStore 46: Replacement policy set to fifo
+2025-11-21 03:13:47,182 - INFO - User 46 initialized and connected to router 46
+2025-11-21 03:13:47,182 - INFO - ContentStore 47: Using CNN-based semantic encoder
+2025-11-21 03:13:47,182 - INFO - Initialized ContentStore for router 47 with capacity 0
+2025-11-21 03:13:47,182 - INFO - Router 47 initialized with capacity 0
+2025-11-21 03:13:47,182 - INFO - ContentStore 47: Replacement policy set to fifo
+2025-11-21 03:13:47,182 - INFO - User 47 initialized and connected to router 47
+2025-11-21 03:13:47,182 - INFO - ContentStore 48: Using CNN-based semantic encoder
+2025-11-21 03:13:47,182 - INFO - Initialized ContentStore for router 48 with capacity 0
+2025-11-21 03:13:47,182 - INFO - Router 48 initialized with capacity 0
+2025-11-21 03:13:47,183 - INFO - ContentStore 48: Replacement policy set to fifo
+2025-11-21 03:13:47,183 - INFO - User 48 initialized and connected to router 48
+2025-11-21 03:13:47,183 - INFO - ContentStore 49: Using CNN-based semantic encoder
+2025-11-21 03:13:47,183 - INFO - Initialized ContentStore for router 49 with capacity 0
+2025-11-21 03:13:47,183 - INFO - Router 49 initialized with capacity 0
+2025-11-21 03:13:47,183 - INFO - ContentStore 49: Replacement policy set to fifo
+2025-11-21 03:13:47,183 - INFO - User 49 initialized and connected to router 49
+2025-11-21 03:13:47,183 - INFO - ContentStore 50: Using CNN-based semantic encoder
+2025-11-21 03:13:47,183 - INFO - Initialized ContentStore for router 50 with capacity 0
+2025-11-21 03:13:47,183 - INFO - Router 50 initialized with capacity 0
+2025-11-21 03:13:47,183 - INFO - ContentStore 50: Replacement policy set to fifo
+2025-11-21 03:13:47,183 - INFO - User 50 initialized and connected to router 50
+2025-11-21 03:13:47,183 - INFO - ContentStore 51: Using CNN-based semantic encoder
+2025-11-21 03:13:47,183 - INFO - Initialized ContentStore for router 51 with capacity 0
+2025-11-21 03:13:47,183 - INFO - Router 51 initialized with capacity 0
+2025-11-21 03:13:47,183 - INFO - ContentStore 51: Replacement policy set to fifo
+2025-11-21 03:13:47,183 - INFO - User 51 initialized and connected to router 51
+2025-11-21 03:13:47,183 - INFO - ContentStore 52: Using CNN-based semantic encoder
+2025-11-21 03:13:47,183 - INFO - Initialized ContentStore for router 52 with capacity 0
+2025-11-21 03:13:47,183 - INFO - Router 52 initialized with capacity 0
+2025-11-21 03:13:47,183 - INFO - ContentStore 52: Replacement policy set to fifo
+2025-11-21 03:13:47,183 - INFO - User 52 initialized and connected to router 52
+2025-11-21 03:13:47,183 - INFO - ContentStore 53: Using CNN-based semantic encoder
+2025-11-21 03:13:47,183 - INFO - Initialized ContentStore for router 53 with capacity 0
+2025-11-21 03:13:47,183 - INFO - Router 53 initialized with capacity 0
+2025-11-21 03:13:47,183 - INFO - ContentStore 53: Replacement policy set to fifo
+2025-11-21 03:13:47,183 - INFO - User 53 initialized and connected to router 53
+2025-11-21 03:13:47,183 - INFO - ContentStore 54: Using CNN-based semantic encoder
+2025-11-21 03:13:47,183 - INFO - Initialized ContentStore for router 54 with capacity 0
+2025-11-21 03:13:47,183 - INFO - Router 54 initialized with capacity 0
+2025-11-21 03:13:47,183 - INFO - ContentStore 54: Replacement policy set to fifo
+2025-11-21 03:13:47,183 - INFO - User 54 initialized and connected to router 54
+2025-11-21 03:13:47,183 - INFO - ContentStore 55: Using CNN-based semantic encoder
+2025-11-21 03:13:47,183 - INFO - Initialized ContentStore for router 55 with capacity 0
+2025-11-21 03:13:47,183 - INFO - Router 55 initialized with capacity 0
+2025-11-21 03:13:47,183 - INFO - ContentStore 55: Replacement policy set to fifo
+2025-11-21 03:13:47,183 - INFO - User 55 initialized and connected to router 55
+2025-11-21 03:13:47,183 - INFO - ContentStore 56: Using CNN-based semantic encoder
+2025-11-21 03:13:47,183 - INFO - Initialized ContentStore for router 56 with capacity 0
+2025-11-21 03:13:47,183 - INFO - Router 56 initialized with capacity 0
+2025-11-21 03:13:47,183 - INFO - ContentStore 56: Replacement policy set to fifo
+2025-11-21 03:13:47,184 - INFO - User 56 initialized and connected to router 56
+2025-11-21 03:13:47,184 - INFO - ContentStore 57: Using CNN-based semantic encoder
+2025-11-21 03:13:47,184 - INFO - Initialized ContentStore for router 57 with capacity 0
+2025-11-21 03:13:47,184 - INFO - Router 57 initialized with capacity 0
+2025-11-21 03:13:47,184 - INFO - ContentStore 57: Replacement policy set to fifo
+2025-11-21 03:13:47,184 - INFO - User 57 initialized and connected to router 57
+2025-11-21 03:13:47,184 - INFO - ContentStore 58: Using CNN-based semantic encoder
+2025-11-21 03:13:47,184 - INFO - Initialized ContentStore for router 58 with capacity 0
+2025-11-21 03:13:47,184 - INFO - Router 58 initialized with capacity 0
+2025-11-21 03:13:47,184 - INFO - ContentStore 58: Replacement policy set to fifo
+2025-11-21 03:13:47,184 - INFO - User 58 initialized and connected to router 58
+2025-11-21 03:13:47,184 - INFO - ContentStore 59: Using CNN-based semantic encoder
+2025-11-21 03:13:47,184 - INFO - Initialized ContentStore for router 59 with capacity 0
+2025-11-21 03:13:47,184 - INFO - Router 59 initialized with capacity 0
+2025-11-21 03:13:47,184 - INFO - ContentStore 59: Replacement policy set to fifo
+2025-11-21 03:13:47,184 - INFO - User 59 initialized and connected to router 59
+2025-11-21 03:13:47,184 - INFO - ContentStore 60: Using CNN-based semantic encoder
+2025-11-21 03:13:47,184 - INFO - Initialized ContentStore for router 60 with capacity 0
+2025-11-21 03:13:47,184 - INFO - Router 60 initialized with capacity 0
+2025-11-21 03:13:47,184 - INFO - ContentStore 60: Replacement policy set to fifo
+2025-11-21 03:13:47,184 - INFO - User 60 initialized and connected to router 60
+2025-11-21 03:13:47,184 - INFO - ContentStore 61: Using CNN-based semantic encoder
+2025-11-21 03:13:47,184 - INFO - Initialized ContentStore for router 61 with capacity 0
+2025-11-21 03:13:47,184 - INFO - Router 61 initialized with capacity 0
+2025-11-21 03:13:47,184 - INFO - ContentStore 61: Replacement policy set to fifo
+2025-11-21 03:13:47,184 - INFO - User 61 initialized and connected to router 61
+2025-11-21 03:13:47,184 - INFO - ContentStore 62: Using CNN-based semantic encoder
+2025-11-21 03:13:47,184 - INFO - Initialized ContentStore for router 62 with capacity 0
+2025-11-21 03:13:47,184 - INFO - Router 62 initialized with capacity 0
+2025-11-21 03:13:47,184 - INFO - ContentStore 62: Replacement policy set to fifo
+2025-11-21 03:13:47,184 - INFO - User 62 initialized and connected to router 62
+2025-11-21 03:13:47,184 - INFO - ContentStore 63: Using CNN-based semantic encoder
+2025-11-21 03:13:47,184 - INFO - Initialized ContentStore for router 63 with capacity 0
+2025-11-21 03:13:47,184 - INFO - Router 63 initialized with capacity 0
+2025-11-21 03:13:47,184 - INFO - ContentStore 63: Replacement policy set to fifo
+2025-11-21 03:13:47,184 - INFO - User 63 initialized and connected to router 63
+2025-11-21 03:13:47,184 - INFO - ContentStore 64: Using CNN-based semantic encoder
+2025-11-21 03:13:47,184 - INFO - Initialized ContentStore for router 64 with capacity 0
+2025-11-21 03:13:47,184 - INFO - Router 64 initialized with capacity 0
+2025-11-21 03:13:47,184 - INFO - ContentStore 64: Replacement policy set to fifo
+2025-11-21 03:13:47,184 - INFO - User 64 initialized and connected to router 64
+2025-11-21 03:13:47,184 - INFO - ContentStore 65: Using CNN-based semantic encoder
+2025-11-21 03:13:47,185 - INFO - Initialized ContentStore for router 65 with capacity 0
+2025-11-21 03:13:47,185 - INFO - Router 65 initialized with capacity 0
+2025-11-21 03:13:47,185 - INFO - ContentStore 65: Replacement policy set to fifo
+2025-11-21 03:13:47,185 - INFO - User 65 initialized and connected to router 65
+    🔥 Warm-up phase: 3 rounds...
+2025-11-21 03:13:47,356 - INFO - Router 33: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 4 (hops: 1)
+2025-11-21 03:13:47,356 - INFO - Producer: Serving /edu/oxford/math/research/content_000 (matched /edu/oxford/math/research/content_000) from router 30
+2025-11-21 03:13:47,356 - INFO - Router 35: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 17 (hops: 1)
+2025-11-21 03:13:47,357 - INFO - Router 4: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 56 (hops: 1)
+2025-11-21 03:13:47,357 - INFO - Producer: Forwarding Data for /edu/oxford/math/research/content_000 to local router 30 for propagation via PIT (was: direct to requester)
+2025-11-21 03:13:47,357 - INFO - Router 17: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 16 (hops: 1)
+2025-11-21 03:13:47,357 - INFO - Router 56: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 56 (hops: 1)
+2025-11-21 03:13:47,357 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 8 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 16: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 38 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Producer: Serving /edu/oxford/math/research/content_000 (matched /edu/oxford/math/research/content_000) from router 30
+2025-11-21 03:13:47,358 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 3 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 43 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 16: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 37 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 38: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 38 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Producer: Forwarding Data for /edu/oxford/math/research/content_000 to local router 30 for propagation via PIT (was: direct to requester)
+2025-11-21 03:13:47,358 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 23 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 40 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 3: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 53 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 16: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 14 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 43: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 43 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 37: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 37 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 8 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 9 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Producer: Serving /edu/oxford/math/research/content_000 (matched /edu/oxford/math/research/content_000) from router 30
+2025-11-21 03:13:47,358 - INFO - Router 23: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 49 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 9 (hops: 1)
+2025-11-21 03:13:47,358 - INFO - Router 40: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 40 (hops: 1)
+2025-11-21 03:13:47,359 - INFO - Router 3: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 21 (hops: 1)
+2025-11-21 03:13:47,359 - INFO - Router 53: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 53 (hops: 1)
+2025-11-21 03:13:47,359 - INFO - Router 14: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 54 (hops: 1)
+2025-11-21 03:13:47,359 - INFO - Router 43: Delivered Data for /edu/oxford/math/research/content_000 to user 43
+2025-11-21 03:13:47,360 - INFO - Router 43: Delivered Data for /edu/oxford/math/research/content_000 to user 43
+2025-11-21 03:13:47,360 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 3 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 43 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 7 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 48 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Producer: Forwarding Data for /edu/oxford/math/research/content_000 to local router 30 for propagation via PIT (was: direct to requester)
+2025-11-21 03:13:47,360 - INFO - Router 23: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 61 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 7 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 49: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 49 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 40: Delivered Data for /edu/oxford/math/research/content_000 to user 40
+2025-11-21 03:13:47,360 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 48 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 3: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 5 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 40: Delivered Data for /edu/oxford/math/research/content_000 to user 40
+2025-11-21 03:13:47,360 - INFO - Router 53: Delivered Data for /edu/oxford/math/research/content_000 to user 53
+2025-11-21 03:13:47,360 - INFO - Router 21: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 60 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 53: Delivered Data for /edu/oxford/math/research/content_000 to user 53
+2025-11-21 03:13:47,360 - INFO - Router 14: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 12 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 54: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 54 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 23 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 40 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 3: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 53 (hops: 1)
+2025-11-21 03:13:47,360 - INFO - Router 43: Delivered Data for /edu/oxford/math/research/content_000 to user 43
+2025-11-21 03:13:47,361 - INFO - Router 7: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 58 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 11 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 48: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 48 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 23: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 25 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Producer: Serving /edu/oxford/math/research/content_000 (matched /edu/oxford/math/research/content_000) from router 30
+2025-11-21 03:13:47,361 - INFO - Router 61: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 61 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 1 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 7: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 58 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 49: Delivered Data for /edu/oxford/math/research/content_000 to user 49
+2025-11-21 03:13:47,361 - INFO - Router 49: Delivered Data for /edu/oxford/math/research/content_000 to user 49
+2025-11-21 03:13:47,361 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 11 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 3: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 2 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 48: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 48 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 5: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 42 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 21: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 62 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 60: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 60 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 14: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 15 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 12: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 63 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 9 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 23: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 49 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 9 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 40: Delivered Data for /edu/oxford/math/research/content_000 to user 40
+2025-11-21 03:13:47,361 - INFO - Router 3: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 21 (hops: 1)
+2025-11-21 03:13:47,361 - INFO - Router 53: Delivered Data for /edu/oxford/math/research/content_000 to user 53
+2025-11-21 03:13:47,362 - INFO - Router 58: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 58 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 10 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 11: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 36 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 48: Delivered Data for /edu/oxford/math/research/content_000 to user 48
+2025-11-21 03:13:47,362 - INFO - Router 48: Delivered Data for /edu/oxford/math/research/content_000 to user 48
+2025-11-21 03:13:47,362 - INFO - Router 23: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 24 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 25: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 52 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Producer: Forwarding Data for /edu/oxford/math/research/content_000 to local router 30 for propagation via PIT (was: direct to requester)
+2025-11-21 03:13:47,362 - INFO - Router 61: Delivered Data for /edu/oxford/math/research/content_000 to user 61
+2025-11-21 03:13:47,362 - INFO - Router 61: Delivered Data for /edu/oxford/math/research/content_000 to user 61
+2025-11-21 03:13:47,362 - INFO - Router 1: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 29 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 58: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 58 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 10 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 11: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 36 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 2: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 55 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 48: Delivered Data for /edu/oxford/math/research/content_000 to user 48
+2025-11-21 03:13:47,362 - INFO - Router 48: Delivered Data for /edu/oxford/math/research/content_000 to user 48
+2025-11-21 03:13:47,362 - INFO - Router 42: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 42 (hops: 1)
+2025-11-21 03:13:47,362 - INFO - Router 62: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 62 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 60: Delivered Data for /edu/oxford/math/research/content_000 to user 60
+2025-11-21 03:13:47,363 - INFO - Router 60: Delivered Data for /edu/oxford/math/research/content_000 to user 60
+2025-11-21 03:13:47,363 - INFO - Router 15: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 46 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 63: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 63 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 30: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 7 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 48 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 23: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 61 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 49: Delivered Data for /edu/oxford/math/research/content_000 to user 49
+2025-11-21 03:13:47,363 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 7 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 48 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 3: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 5 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 58: Delivered Data for /edu/oxford/math/research/content_000 to user 58
+2025-11-21 03:13:47,363 - INFO - Router 58: Delivered Data for /edu/oxford/math/research/content_000 to user 58
+2025-11-21 03:13:47,363 - INFO - Router 10: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 51 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 36: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 36 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 24: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 57 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 25: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 65 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Router 52: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 52 (hops: 1)
+2025-11-21 03:13:47,363 - INFO - Producer: Serving /edu/oxford/math/research/content_000 (matched /edu/oxford/math/research/content_000) from router 30
+2025-11-21 03:13:47,364 - INFO - Router 29: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 39 (hops: 1)
+2025-11-21 03:13:47,364 - INFO - Router 58: Delivered Data for /edu/oxford/math/research/content_000 to user 58
+2025-11-21 03:13:47,364 - INFO - Router 58: Delivered Data for /edu/oxford/math/research/content_000 to user 58
+2025-11-21 03:13:47,364 - INFO - Router 10: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 51 (hops: 1)
+2025-11-21 03:13:47,364 - INFO - Router 36: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 36 (hops: 1)
+2025-11-21 03:13:47,364 - INFO - Router 55: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 55 (hops: 1)
+2025-11-21 03:13:47,364 - INFO - Router 42: Delivered Data for /edu/oxford/math/research/content_000 to user 42
+2025-11-21 03:13:47,364 - INFO - Router 42: Delivered Data for /edu/oxford/math/research/content_000 to user 42
+2025-11-21 03:13:47,364 - INFO - Router 62: Delivered Data for /edu/oxford/math/research/content_000 to user 62
+2025-11-21 03:13:47,364 - INFO - Router 62: Delivered Data for /edu/oxford/math/research/content_000 to user 62
+2025-11-21 03:13:47,364 - INFO - Router 46: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 46 (hops: 1)
+2025-11-21 03:13:47,364 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 11 (hops: 1)
+2025-11-21 03:13:47,364 - INFO - Router 48: Delivered Data for /edu/oxford/math/research/content_000 to user 48
+2025-11-21 03:13:47,364 - INFO - Router 23: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 25 (hops: 1)
+2025-11-21 03:13:47,364 - INFO - Router 61: Delivered Data for /edu/oxford/math/research/content_000 to user 61
+2025-11-21 03:13:47,364 - INFO - Router 8: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 1 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 11 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 48: Delivered Data for /edu/oxford/math/research/content_000 to user 48
+2025-11-21 03:13:47,365 - INFO - Router 3: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 2 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 51: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 51 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 36: Delivered Data for /edu/oxford/math/research/content_000 to user 36
+2025-11-21 03:13:47,365 - INFO - Router 36: Delivered Data for /edu/oxford/math/research/content_000 to user 36
+2025-11-21 03:13:47,365 - INFO - Router 57: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 57 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 25: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 47 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 65: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 65 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 52: Delivered Data for /edu/oxford/math/research/content_000 to user 52
+2025-11-21 03:13:47,365 - INFO - Router 52: Delivered Data for /edu/oxford/math/research/content_000 to user 52
+2025-11-21 03:13:47,365 - INFO - Producer: Forwarding Data for /edu/oxford/math/research/content_000 to local router 30 for propagation via PIT (was: direct to requester)
+2025-11-21 03:13:47,365 - INFO - Router 29: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 44 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 39: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 39 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 51: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 51 (hops: 1)
+2025-11-21 03:13:47,365 - INFO - Router 36: Delivered Data for /edu/oxford/math/research/content_000 to user 36
+2025-11-21 03:13:47,365 - INFO - Router 36: Delivered Data for /edu/oxford/math/research/content_000 to user 36
+2025-11-21 03:13:47,365 - INFO - Router 55: Delivered Data for /edu/oxford/math/research/content_000 to user 55
+2025-11-21 03:13:47,365 - INFO - Router 55: Delivered Data for /edu/oxford/math/research/content_000 to user 55
+2025-11-21 03:13:47,366 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 10 (hops: 1)
+2025-11-21 03:13:47,366 - INFO - Router 23: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 24 (hops: 1)
+2025-11-21 03:13:47,366 - INFO - Router 25: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 52 (hops: 1)
+2025-11-21 03:13:47,366 - INFO - Router 9: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 10 (hops: 1)
+2025-11-21 03:13:47,366 - INFO - Router 51: Delivered Data for /edu/oxford/math/research/content_000 to user 51
+2025-11-21 03:13:47,366 - INFO - Router 51: Delivered Data for /edu/oxford/math/research/content_000 to user 51
+2025-11-21 03:13:47,366 - INFO - Router 57: Delivered Data for /edu/oxford/math/research/content_000 to user 57
+2025-11-21 03:13:47,366 - INFO - Router 25: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 26 (hops: 1)
+2025-11-21 03:13:47,366 - INFO - Router 57: Delivered Data for /edu/oxford/math/research/content_000 to user 57
+2025-11-21 03:13:47,366 - INFO - Router 65: Delivered Data for /edu/oxford/math/research/content_000 to user 65
+2025-11-21 03:13:47,366 - INFO - Router 47: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 47 (hops: 1)
+2025-11-21 03:13:47,366 - INFO - Router 65: Delivered Data for /edu/oxford/math/research/content_000 to user 65
+2025-11-21 03:13:47,366 - INFO - Router 44: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 44 (hops: 1)
+2025-11-21 03:13:47,366 - INFO - Router 39: Delivered Data for /edu/oxford/math/research/content_000 to user 39
+2025-11-21 03:13:47,366 - INFO - Router 39: Delivered Data for /edu/oxford/math/research/content_000 to user 39
+2025-11-21 03:13:47,366 - INFO - Router 51: Delivered Data for /edu/oxford/math/research/content_000 to user 51
+2025-11-21 03:13:47,366 - INFO - Router 51: Delivered Data for /edu/oxford/math/research/content_000 to user 51
+2025-11-21 03:13:47,367 - INFO - Router 25: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 65 (hops: 1)
+2025-11-21 03:13:47,367 - INFO - Router 52: Delivered Data for /edu/oxford/math/research/content_000 to user 52
+2025-11-21 03:13:47,367 - INFO - Router 26: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 45 (hops: 1)
+2025-11-21 03:13:47,367 - INFO - Router 47: Delivered Data for /edu/oxford/math/research/content_000 to user 47
+2025-11-21 03:13:47,367 - INFO - Router 47: Delivered Data for /edu/oxford/math/research/content_000 to user 47
+2025-11-21 03:13:47,367 - INFO - Router 44: Delivered Data for /edu/oxford/math/research/content_000 to user 44
+2025-11-21 03:13:47,367 - INFO - Router 44: Delivered Data for /edu/oxford/math/research/content_000 to user 44
+2025-11-21 03:13:47,367 - INFO - Router 25: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 47 (hops: 1)
+2025-11-21 03:13:47,367 - INFO - Router 65: Delivered Data for /edu/oxford/math/research/content_000 to user 65
+2025-11-21 03:13:47,367 - INFO - Router 26: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 41 (hops: 1)
+2025-11-21 03:13:47,367 - INFO - Router 45: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 45 (hops: 1)
+2025-11-21 03:13:47,367 - INFO - Router 25: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 26 (hops: 1)
+2025-11-21 03:13:47,368 - INFO - Router 47: Delivered Data for /edu/oxford/math/research/content_000 to user 47
+2025-11-21 03:13:47,368 - INFO - Router 41: Forwarding Data for /edu/oxford/math/research/content_000 to next hop 41 (hops: 1)
+2025-11-21 03:13:47,368 - INFO - Router 45: Delivered Data for /edu/oxford/math/research/content_000 to user 45
+2025-11-21 03:13:47,368 - INFO - Router 45: Delivered Data for /edu/oxford/math/research/content_000 to user 45
+2025-11-21 03:13:47,368 - INFO - Router 41: Delivered Data for /edu/oxford/math/research/content_000 to user 41
+2025-11-21 03:13:47,368 - INFO - Router 41: Delivered Data for /edu/oxford/math/research/content_000 to user 41
+2025-11-21 03:13:47,370 - INFO - Router 27: Forwarding Data for /edu/oxford/math/data/content_001 to next hop 50 (hops: 1)
+2025-11-21 03:13:47,370 - INFO - Router 50: Forwarding Data for /edu/oxford/math/data/content_001 to next hop 50 (hops: 1)
+2025-11-21 03:13:47,370 - INFO - Producer: Serving /edu/oxford/math/data/content_001 (matched /edu/oxford/math/data/content_001) from router 30
+2025-11-21 03:13:47,370 - INFO - Producer: Forwarding Data for /edu/oxford/math/data/content_001 to local router 30 for propagation via PIT (was: direct to requester)
+2025-11-21 03:13:47,370 - INFO - Router 30: Forwarding Data for /edu/oxford/math/data/content_001 to next hop 8 (hops: 1)
+2025-11-21 03:13:47,370 - INFO - Router 8: Forwarding Data for /edu/oxford/math/data/content_001 to next hop 43 (hops: 1)

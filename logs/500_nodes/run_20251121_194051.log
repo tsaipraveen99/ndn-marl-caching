@@ -1,0 +1,39 @@
+2025-11-21 19:40:51,269 - comprehensive_run - INFO - ================================================================================
+2025-11-21 19:40:51,269 - comprehensive_run - INFO - COMPREHENSIVE 500-NODE SIMULATION
+2025-11-21 19:40:51,269 - comprehensive_run - INFO - ================================================================================
+2025-11-21 19:40:51,269 - comprehensive_run - INFO - Log file: logs/500_nodes/run_20251121_194051.log
+2025-11-21 19:40:51,269 - comprehensive_run - INFO - Results directory: results/500_nodes_comprehensive
+2025-11-21 19:40:51,269 - comprehensive_run - INFO - Graphs directory: results/500_nodes_comprehensive/graphs
+2025-11-21 19:40:51,269 - comprehensive_run - INFO - Metrics directory: results/500_nodes_comprehensive/metrics
+2025-11-21 19:40:51,269 - comprehensive_run - INFO - 
+Configuration:
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Scenario: 500_nodes
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Number of runs: 5
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Seed: 42
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Metrics directory: results/500_nodes_comprehensive/metrics
+2025-11-21 19:40:51,270 - comprehensive_run - INFO - 
+Network Configuration:
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Nodes: 500
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Producers: 100
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Users: 1500
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Contents: 5000
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Rounds: 40
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   Requests per user: 5
+2025-11-21 19:40:51,270 - comprehensive_run - INFO -   DQN Enabled: False
+2025-11-21 19:40:51,270 - comprehensive_run - INFO - 
+================================================================================
+2025-11-21 19:40:51,270 - comprehensive_run - INFO - STARTING ALGORITHM COMPARISON
+2025-11-21 19:40:51,270 - comprehensive_run - INFO - ================================================================================
+2025-11-22 01:27:57,057 - comprehensive_run - INFO - 
+================================================================================
+2025-11-22 01:27:57,057 - comprehensive_run - INFO - SIMULATION COMPLETED
+2025-11-22 01:27:57,057 - comprehensive_run - INFO - ================================================================================
+2025-11-22 01:27:57,057 - comprehensive_run - INFO - Total time: 5.78 hours (347.10 minutes)
+2025-11-22 01:27:57,058 - comprehensive_run - INFO - Algorithms completed: 11
+2025-11-22 01:27:57,058 - comprehensive_run - INFO - 
+Results saved to: results/500_nodes_comprehensive/results_20251122_012757.json
+2025-11-22 01:27:57,058 - comprehensive_run - INFO - Summary saved to: results/500_nodes_comprehensive/summary.json
+2025-11-22 01:27:57,058 - comprehensive_run - INFO - 
+================================================================================
+2025-11-22 01:27:57,058 - comprehensive_run - INFO - GENERATING GRAPHS AND REPORTS
+2025-11-22 01:27:57,058 - comprehensive_run - INFO - ================================================================================

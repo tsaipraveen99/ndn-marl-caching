@@ -1,0 +1,467 @@
+================================================================================
+EXTENDED DQN TEST - Extended Training
+================================================================================
+
+Configuration:
+  NDN_SIM_NODES: 50
+  NDN_SIM_PRODUCERS: 10
+  NDN_SIM_CONTENTS: 200
+  NDN_SIM_USERS: 100
+  NDN_SIM_ROUNDS: 200
+  NDN_SIM_REQUESTS: 20
+  NDN_SIM_WARMUP_ROUNDS: 30
+  NDN_SIM_CACHE_CAPACITY: 1000
+  NDN_SIM_ZIPF_PARAM: 1.2
+  NDN_SIM_QUIET: 1
+  NDN_SIM_SKIP_DELAYS: 1
+  NDN_SIM_CACHE_POLICY: combined
+  NDN_SIM_USE_DQN: 1
+
+🔥 Creating network...
+
+🔧 Enabling DQN mode on all routers...
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+Using device: mps
+✅ Network created: 160 routers with DQN agents
+
+📊 Aligning user distributions...
+🔍 Initializing Bloom filter propagation...
+
+🔥 Extended warm-up phase: 30 rounds...
+
+🚀 Starting extended DQN training: 200 rounds...
+   (This will take longer but allows DQN to learn properly)
+⏳ Round 1: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.6s elapsed, 13.4s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.7s elapsed, 9.3s remaining)
+   ⏳ Queue drain: still waiting... (22.8s elapsed, 7.2s remaining)
+   ⏳ Queue drain: still waiting... (24.9s elapsed, 5.1s remaining)
+   ⏳ Queue drain: still waiting... (26.9s elapsed, 3.1s remaining)
+   ⏳ Queue drain: still waiting... (29.0s elapsed, 1.0s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 1: Queue drain timeout, proceeding anyway
+✅ Round 1 completed
+⏳ Round 2: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.4s elapsed, 15.6s remaining)
+   ⏳ Queue drain: still waiting... (16.5s elapsed, 13.5s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.7s elapsed, 9.3s remaining)
+   ⏳ Queue drain: still waiting... (22.7s elapsed, 7.3s remaining)
+   ⏳ Queue drain: still waiting... (24.8s elapsed, 5.2s remaining)
+   ⏳ Queue drain: still waiting... (26.9s elapsed, 3.1s remaining)
+   ⏳ Queue drain: still waiting... (29.0s elapsed, 1.0s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 2: Queue drain timeout, proceeding anyway
+✅ Round 2 completed
+⏳ Round 3: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.4s elapsed, 15.6s remaining)
+   ⏳ Queue drain: still waiting... (16.5s elapsed, 13.5s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.6s elapsed, 9.4s remaining)
+   ⏳ Queue drain: still waiting... (22.7s elapsed, 7.3s remaining)
+   ⏳ Queue drain: still waiting... (24.8s elapsed, 5.2s remaining)
+   ⏳ Queue drain: still waiting... (26.9s elapsed, 3.1s remaining)
+   ⏳ Queue drain: still waiting... (28.9s elapsed, 1.1s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 3: Queue drain timeout, proceeding anyway
+✅ Round 3 completed
+⏳ Round 4: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.3s elapsed, 17.7s remaining)
+   ⏳ Queue drain: still waiting... (14.4s elapsed, 15.6s remaining)
+   ⏳ Queue drain: still waiting... (16.5s elapsed, 13.5s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.6s elapsed, 9.4s remaining)
+   ⏳ Queue drain: still waiting... (22.7s elapsed, 7.3s remaining)
+   ⏳ Queue drain: still waiting... (24.8s elapsed, 5.2s remaining)
+   ⏳ Queue drain: still waiting... (26.9s elapsed, 3.1s remaining)
+   ⏳ Queue drain: still waiting... (29.0s elapsed, 1.0s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 4: Queue drain timeout, proceeding anyway
+✅ Round 4 completed
+⏳ Round 5: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.3s elapsed, 17.7s remaining)
+   ⏳ Queue drain: still waiting... (14.4s elapsed, 15.6s remaining)
+   ⏳ Queue drain: still waiting... (16.5s elapsed, 13.5s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.6s elapsed, 9.4s remaining)
+   ⏳ Queue drain: still waiting... (22.7s elapsed, 7.3s remaining)
+   ⏳ Queue drain: still waiting... (24.8s elapsed, 5.2s remaining)
+   ⏳ Queue drain: still waiting... (26.9s elapsed, 3.1s remaining)
+   ⏳ Queue drain: still waiting... (29.0s elapsed, 1.0s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 5: Queue drain timeout, proceeding anyway
+✅ Round 5 completed
+⏳ Round 6: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.5s elapsed, 13.5s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.7s elapsed, 9.3s remaining)
+   ⏳ Queue drain: still waiting... (22.8s elapsed, 7.2s remaining)
+   ⏳ Queue drain: still waiting... (24.8s elapsed, 5.2s remaining)
+   ⏳ Queue drain: still waiting... (26.9s elapsed, 3.1s remaining)
+   ⏳ Queue drain: still waiting... (29.0s elapsed, 1.0s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 6: Queue drain timeout, proceeding anyway
+✅ Round 6 completed
+⏳ Round 7: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.2s elapsed, 23.8s remaining)
+   ⏳ Queue drain: still waiting... (8.3s elapsed, 21.7s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.6s elapsed, 13.4s remaining)
+   ⏳ Queue drain: still waiting... (18.7s elapsed, 11.3s remaining)
+   ⏳ Queue drain: still waiting... (20.7s elapsed, 9.3s remaining)
+   ⏳ Queue drain: still waiting... (22.8s elapsed, 7.2s remaining)
+   ⏳ Queue drain: still waiting... (24.9s elapsed, 5.1s remaining)
+   ⏳ Queue drain: still waiting... (27.0s elapsed, 3.0s remaining)
+   ⏳ Queue drain: still waiting... (29.1s elapsed, 0.9s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 7: Queue drain timeout, proceeding anyway
+✅ Round 7 completed
+⏳ Round 8: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.4s elapsed, 19.6s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.6s elapsed, 13.4s remaining)
+   ⏳ Queue drain: still waiting... (18.7s elapsed, 11.3s remaining)
+   ⏳ Queue drain: still waiting... (20.8s elapsed, 9.2s remaining)
+   ⏳ Queue drain: still waiting... (22.8s elapsed, 7.2s remaining)
+   ⏳ Queue drain: still waiting... (24.9s elapsed, 5.1s remaining)
+   ⏳ Queue drain: still waiting... (27.0s elapsed, 3.0s remaining)
+   ⏳ Queue drain: still waiting... (29.1s elapsed, 0.9s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 8: Queue drain timeout, proceeding anyway
+✅ Round 8 completed
+⏳ Round 9: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.4s elapsed, 15.6s remaining)
+   ⏳ Queue drain: still waiting... (16.5s elapsed, 13.5s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.6s elapsed, 9.4s remaining)
+   ⏳ Queue drain: still waiting... (22.7s elapsed, 7.3s remaining)
+   ⏳ Queue drain: still waiting... (24.8s elapsed, 5.2s remaining)
+   ⏳ Queue drain: still waiting... (26.9s elapsed, 3.1s remaining)
+   ⏳ Queue drain: still waiting... (29.0s elapsed, 1.0s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 9: Queue drain timeout, proceeding anyway
+✅ Round 9 completed
+⏳ Round 10: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.6s elapsed, 13.4s remaining)
+   ⏳ Queue drain: still waiting... (18.7s elapsed, 11.3s remaining)
+   ⏳ Queue drain: still waiting... (20.8s elapsed, 9.2s remaining)
+   ⏳ Queue drain: still waiting... (22.8s elapsed, 7.2s remaining)
+   ⏳ Queue drain: still waiting... (24.9s elapsed, 5.1s remaining)
+   ⏳ Queue drain: still waiting... (27.0s elapsed, 3.0s remaining)
+   ⏳ Queue drain: still waiting... (29.1s elapsed, 0.9s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 10: Queue drain timeout, proceeding anyway
+✅ Round 10 completed
+⏳ Round 11: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.6s elapsed, 13.4s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.7s elapsed, 9.3s remaining)
+   ⏳ Queue drain: still waiting... (22.8s elapsed, 7.2s remaining)
+   ⏳ Queue drain: still waiting... (24.9s elapsed, 5.1s remaining)
+   ⏳ Queue drain: still waiting... (27.0s elapsed, 3.0s remaining)
+   ⏳ Queue drain: still waiting... (29.0s elapsed, 1.0s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 11: Queue drain timeout, proceeding anyway
+✅ Round 11 completed
+⏳ Round 12: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.1s elapsed, 23.9s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.5s elapsed, 13.5s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.7s elapsed, 9.3s remaining)
+   ⏳ Queue drain: still waiting... (22.8s elapsed, 7.2s remaining)
+   ⏳ Queue drain: still waiting... (24.9s elapsed, 5.1s remaining)
+   ⏳ Queue drain: still waiting... (27.0s elapsed, 3.0s remaining)
+   ⏳ Queue drain: still waiting... (29.1s elapsed, 0.9s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 12: Queue drain timeout, proceeding anyway
+✅ Round 12 completed
+⏳ Round 13: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.2s elapsed, 23.8s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.6s elapsed, 13.4s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.7s elapsed, 9.3s remaining)
+   ⏳ Queue drain: still waiting... (22.8s elapsed, 7.2s remaining)
+   ⏳ Queue drain: still waiting... (24.9s elapsed, 5.1s remaining)
+   ⏳ Queue drain: still waiting... (27.0s elapsed, 3.0s remaining)
+   ⏳ Queue drain: still waiting... (29.1s elapsed, 0.9s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 13: Queue drain timeout, proceeding anyway
+✅ Round 13 completed
+⏳ Round 14: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.2s elapsed, 23.8s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.6s elapsed, 13.4s remaining)
+   ⏳ Queue drain: still waiting... (18.6s elapsed, 11.4s remaining)
+   ⏳ Queue drain: still waiting... (20.7s elapsed, 9.3s remaining)
+   ⏳ Queue drain: still waiting... (22.8s elapsed, 7.2s remaining)
+   ⏳ Queue drain: still waiting... (24.9s elapsed, 5.1s remaining)
+   ⏳ Queue drain: still waiting... (26.9s elapsed, 3.1s remaining)
+   ⏳ Queue drain: still waiting... (29.0s elapsed, 1.0s remaining)
+   ⚠️  Queue drain: TIMEOUT after 30.0s
+⚠️  Round 14: Queue drain timeout, proceeding anyway
+✅ Round 14 completed
+⏳ Round 15: Waiting for queue to drain...
+   📊 Queue drain: initial_empty=False
+   ⏳ Queue drain: still waiting... (2.0s elapsed, 28.0s remaining)
+   ⏳ Queue drain: still waiting... (4.1s elapsed, 25.9s remaining)
+   ⏳ Queue drain: still waiting... (6.2s elapsed, 23.8s remaining)
+   ⏳ Queue drain: still waiting... (8.2s elapsed, 21.8s remaining)
+   ⏳ Queue drain: still waiting... (10.3s elapsed, 19.7s remaining)
+   ⏳ Queue drain: still waiting... (12.4s elapsed, 17.6s remaining)
+   ⏳ Queue drain: still waiting... (14.5s elapsed, 15.5s remaining)
+   ⏳ Queue drain: still waiting... (16.5s elapsed, 13.5s remaining)

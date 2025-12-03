@@ -1,0 +1,300 @@
+
+================================================================================
+BASELINE ALGORITHMS - 150 NODE NETWORK
+================================================================================
+Scenario: 50_nodes
+Runs per algorithm: 3
+Seed: 42
+
+================================================================================
+[1/4] Running: Baseline_LRU
+Description: LRU cache with leave-copy-everywhere placement
+================================================================================
+
+======================================================================
+ALGORITHM: Baseline_LRU
+Description: LRU cache with leave-copy-everywhere placement
+  📁 Loaded scenario '50_nodes' from configs/scenario_50_nodes.json
+  Run 1/3...
+    📊 Experiment ID: 20251126_222934_Baseline_LRU
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+  Run 2/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+  💾 Checkpoint saved: Baseline_LRU (2/3 runs)
+  Run 3/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+  ✅ Checkpoint cleared: Baseline_LRU completed
+
+======================================================================
+Comparison complete. Results saved to results/algorithm_comparison_50_nodes.json
+======================================================================
+Algorithm              HitRate%    CacheHits    Latency(ms)    Util%
+--------------------------------------------------------------------
+Baseline_LRU              23.30         4906           0.00   100.00
+
+✅ Baseline_LRU completed!
+   Hit Rate: 0.2330 ± 0.0119
+   Cache Hits: 4906
+   Latency: N/A
+
+================================================================================
+[2/4] Running: Baseline_LFU
+Description: LFU cache with probabilistic placement
+================================================================================
+
+======================================================================
+ALGORITHM: Baseline_LFU
+Description: LFU cache with probabilistic placement
+  📁 Loaded scenario '50_nodes' from configs/scenario_50_nodes.json
+  Run 1/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+      Router 5: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 57: 20.0%
+      Router 48: 25.0%
+      Router 59: 40.0%
+      Router 2: 50.0%
+      Router 21: 55.0%
+  Run 2/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+      Router 5: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 2: 20.0%
+      Router 48: 20.0%
+      Router 21: 40.0%
+      Router 52: 60.0%
+      Router 55: 60.0%
+  💾 Checkpoint saved: Baseline_LFU (2/3 runs)
+  Run 3/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+      Router 5: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 55: 20.0%
+      Router 2: 25.0%
+      Router 33: 60.0%
+      Router 48: 60.0%
+      Router 21: 75.0%
+  ✅ Checkpoint cleared: Baseline_LFU completed
+
+======================================================================
+Comparison complete. Results saved to results/algorithm_comparison_50_nodes.json
+======================================================================
+Algorithm              HitRate%    CacheHits    Latency(ms)    Util%
+--------------------------------------------------------------------
+Baseline_LFU              16.95         4028           0.00    93.19
+
+✅ Baseline_LFU completed!
+   Hit Rate: 0.1695 ± 0.0089
+   Cache Hits: 4028
+   Latency: N/A
+
+================================================================================
+[3/4] Running: Baseline_FIFO
+Description: FIFO cache with leave-copy-everywhere
+================================================================================
+
+======================================================================
+ALGORITHM: Baseline_FIFO
+Description: FIFO cache with leave-copy-everywhere
+  📁 Loaded scenario '50_nodes' from configs/scenario_50_nodes.json
+  Run 1/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+  Run 2/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+  💾 Checkpoint saved: Baseline_FIFO (2/3 runs)
+  Run 3/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 2: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+  ✅ Checkpoint cleared: Baseline_FIFO completed
+
+======================================================================
+Comparison complete. Results saved to results/algorithm_comparison_50_nodes.json
+======================================================================
+Algorithm              HitRate%    CacheHits    Latency(ms)    Util%
+--------------------------------------------------------------------
+Baseline_FIFO             18.18         3846           0.00   100.00
+
+✅ Baseline_FIFO completed!
+   Hit Rate: 0.1818 ± 0.0068
+   Cache Hits: 3846
+   Latency: N/A
+
+================================================================================
+[4/4] Running: Baseline_Combined
+Description: Combined policy with leave-copy-down
+================================================================================
+
+======================================================================
+ALGORITHM: Baseline_Combined
+Description: Combined policy with leave-copy-down
+  📁 Loaded scenario '50_nodes' from configs/scenario_50_nodes.json
+  Run 1/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+      Router 5: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 2: 45.0%
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+  Run 2/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+      Router 5: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 2: 45.0%
+      Router 32: 80.0%
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 3: 100.0%
+  💾 Checkpoint saved: Baseline_Combined (2/3 runs)
+  Run 3/3...
+    🔥 Warm-up phase: 10 rounds...
+    📊 Evaluation phase: 40 rounds...
+    🧮 Top cache utilizations:
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 3: 100.0%
+      Router 4: 100.0%
+      Router 5: 100.0%
+    🧮 Lowest cache utilizations:
+      Router 2: 15.0%
+      Router 32: 80.0%
+      Router 0: 100.0%
+      Router 1: 100.0%
+      Router 3: 100.0%
+  ✅ Checkpoint cleared: Baseline_Combined completed
+
+======================================================================
+Comparison complete. Results saved to results/algorithm_comparison_50_nodes.json
+======================================================================
+Algorithm              HitRate%    CacheHits    Latency(ms)    Util%
+--------------------------------------------------------------------
+Baseline_Combined         20.79         4712           0.00    98.69
+
+✅ Baseline_Combined completed!
+   Hit Rate: 0.2079 ± 0.0062
+   Cache Hits: 4712
+   Latency: N/A
+
+================================================================================
+BASELINE BENCHMARK COMPLETE!
+================================================================================
+
+📊 Results Summary:
+--------------------------------------------------------------------------------
+Algorithm                     Hit Rate   Cache Hits   Latency (ms)
+--------------------------------------------------------------------------------
+Baseline_LRU                0.2330±0.0119         4906           0.00
+Baseline_LFU                0.1695±0.0089         4028           0.00
+Baseline_FIFO               0.1818±0.0068         3846           0.00
+Baseline_Combined           0.2079±0.0062         4712           0.00
+
+✅ Results saved to: results/baseline_results_50nodes.json
+2025-11-26 22:50:02,746 - INFO - Run 3/3 finished: hit_rate=0.2041, cache_hits=4496, avg_cache_util=98.25%

@@ -1,0 +1,7 @@
+2025-11-17 15:11:40,574 INFO: Simulation completed successfully
+2025-11-17 15:11:40,608 INFO: Final Statistics:
+2025-11-17 15:11:40,643 INFO:   nodes_traversed: 1571002
+2025-11-17 15:11:40,698 INFO:   cache_hits: 13559
+2025-11-17 15:11:40,698 INFO:   data_packets: 212544
+2025-11-17 15:11:40,738 INFO:   data_size: 412040
+2025-11-17 15:11:40,778 INFO:   hit_rate: 0.008630797414643648
