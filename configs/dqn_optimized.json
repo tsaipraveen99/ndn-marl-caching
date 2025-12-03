@@ -1,0 +1,55 @@
+{
+  "description": "Optimized DQN/MARL hyperparameters for maximum hit rate performance",
+  "optimization_target": "beat LFO-Baseline (0.1826) and OPT-Belady (0.1791)",
+  
+  "dqn_hyperparameters": {
+    "learning_rate": 0.0005,
+    "gamma": 0.995,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay": 0.9995,
+    "batch_size": 128,
+    "memory_multiplier": 25,
+    "target_update_freq": 200,
+    "n_step": 30,
+    "hidden_dims": [512, 256, 128]
+  },
+  
+  "reward_shaping": {
+    "hit_reward": 20.0,
+    "cluster_reward_weight": 1.5,
+    "frequency_reward_weight": 3.0,
+    "size_penalty_scale": 0.08,
+    "latency_reward_weight": 0.15,
+    "bandwidth_reward_weight": 0.00015,
+    "edge_bonus": 0.5,
+    "downstream_demand_weight": 0.15,
+    "downstream_demand_cap": 0.5,
+    "cache_miss_penalty": 2.5,
+    "skip_pop_penalty": 0.8,
+    "unpopular_skip_penalty": 0.15
+  },
+  
+  "training_config": {
+    "training_frequency": 2,
+    "min_memory_for_training": 32,
+    "gradient_clip_norm": 1.0,
+    "learning_rate_scheduler_patience": 10,
+    "learning_rate_scheduler_factor": 0.5
+  },
+  
+  "rationale": {
+    "learning_rate": "Increased from 0.0003 to 0.0005 for faster convergence while maintaining stability",
+    "gamma": "Increased from 0.99 to 0.995 for longer-term credit assignment (important for delayed cache hits)",
+    "epsilon_decay": "Slower decay (0.9995 vs 0.998) to maintain exploration longer, helping discover better policies",
+    "epsilon_end": "Higher minimum (0.05 vs 0.01) to maintain some exploration even after convergence",
+    "batch_size": "Increased from 64 to 128 for more stable gradient estimates",
+    "target_update_freq": "Increased from 100 to 200 for more stable Q-targets",
+    "n_step": "Increased from 20 to 30 for better long-term reward propagation",
+    "hidden_dims": "Larger network [512, 256, 128] vs [256, 128, 64] for better function approximation",
+    "hit_reward": "Increased from 15.0 to 20.0 to emphasize hit rate optimization",
+    "frequency_reward_weight": "Increased from 2.0 to 3.0 to better reward caching popular content",
+    "edge_bonus": "Increased from 0.3 to 0.5 to encourage edge caching (closer to users)"
+  }
+}
+

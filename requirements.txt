@@ -1,0 +1,23 @@
+# Core Dependencies
+numpy>=1.21.0
+scipy>=1.9.0
+matplotlib>=3.5.0
+
+# Deep Learning
+torch>=2.0.0
+
+# Graph/Network
+networkx>=3.0
+
+# Bloom Filter
+mmh3>=3.0.0
+bitarray>=2.0.0
+
+# Serialization
+dill>=0.3.6
+
+# Data Analysis (optional, for result analysis)
+pandas>=1.4.0
+
+# TensorBoard (optional, for training visualization)
+tensorboard>=2.10.0
