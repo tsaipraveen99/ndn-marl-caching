@@ -103,3 +103,5 @@ thesis/
 *.pdf
 *.zip
 
+# macOS
+.DS_Store
