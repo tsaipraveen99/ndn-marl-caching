@@ -194,5 +194,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - San José State University, Department of Computer Science
-- Thesis Advisor: Dr. Thomas Austin
+- Thesis Advisor: Dr. Genya Ishigaki
 
